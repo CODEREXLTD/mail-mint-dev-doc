@@ -1,6 +1,6 @@
 module.exports = [
   {
-    title: 'Elementor Hooks',
+    title: 'Mail Mint Hooks',
     collapsable: false,
     sidebarDepth: -1,
     children: [
