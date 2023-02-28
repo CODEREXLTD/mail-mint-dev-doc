@@ -1,0 +1,22 @@
+{
+  "name": "mail-mint-developer-docs",
+  "version": "0.0.1",
+  "description": "Resources for Mail Mint Developers",
+  "main": "index.js",
+  "authors": {
+    "name": "WPFunnels",
+    "email": "support@getwpfunnels.com"
+  },
+  "repository": "/mail-mint-developer-docs",
+  "scripts": {
+    "dev": "export NODE_OPTIONS=--openssl-legacy-provider && vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.9.9"
+  },
+  "dependencies": {
+    "vuepress-plugin-code-copy": "^1.0.6"
+  }
+}
