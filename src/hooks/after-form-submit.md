@@ -1,8 +1,8 @@
-# Form submit
+# After Form Submit
 
 <Badge type="tip" vertical="top" text="Mail Mint Core" /> <Badge type="warning" vertical="top" text="Basic" />
 
-```mrm_after_form_submit```
+```do_action('mrm_after_form_submit',10,3)```
 
 Fires after a form is submitted in the Mail Mint.
 
