@@ -13,6 +13,7 @@ module.exports = [
     sidebarDepth: -1,
     children: [
       'form-submit',
+      'form-submit2',
     ]
   }
 ];
