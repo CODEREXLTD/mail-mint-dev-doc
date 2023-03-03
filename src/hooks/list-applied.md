@@ -2,7 +2,7 @@
 
 <Badge type="tip" vertical="top" text="Mail Mint Core" /> <Badge type="warning" vertical="top" text="Basic" />
 
-```do_action('mint_list_applied',10,2)```
+```do_action('mailmint_list_applied',10,2)```
 
 Fires when a contact is added to a list.
 
@@ -21,7 +21,7 @@ Fires when a contact is added to a list.
 function my_custom_function( $lists, $contact_id ) {
     // Perform custom logic here.
 }
-add_action( 'mint_list_applied', 'my_custom_function', 10, 2 );
+add_action( 'mailmint_list_applied', 'my_custom_function', 10, 2 );
 
 ```
 

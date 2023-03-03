@@ -1,8 +1,8 @@
-# Mail Mint send campaign
+# Send email campaign
 
 <Badge type="tip" vertical="top" text="Mail Mint Core" /> <Badge type="warning" vertical="top" text="Basic" />
 
-```do_action('mint_send_campaign_email',10,1)```
+```do_action('mailmint_send_campaign_email',10,1)```
 
 Fires when the MailMint plugin is processing the email batch scheduling process.
 
@@ -20,9 +20,7 @@ Fires when the MailMint plugin is processing the email batch scheduling process.
 function my_custom_function( $messages ) {
     // Perform custom logic here.
 }
-add_action( 'mint_send_campaign_email', 'my_custom_function', 10, 1 );
-
-
+add_action( 'mailmint_send_campaign_email', 'my_custom_function', 10, 1 );
 ```
 
 In the example above, my_custom_function is a custom function that will be called when the mrm_send_campaign_email hook is triggered. The function takes one parameter, $messages, which is the same parameter passed to the hook when it is triggered.

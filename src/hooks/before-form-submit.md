@@ -2,7 +2,7 @@
 
 <Badge type="tip" vertical="top" text="Mail Mint Core" /> <Badge type="warning" vertical="top" text="Basic" />
 
-```do_action(''mint_before_form_submit'',10,2)```
+```do_action(''mailmint_before_form_submit'',10,2)```
 
 Fires before a form is submitted in the MailMint
 
@@ -22,7 +22,7 @@ Fires before a form is submitted in the MailMint
 function my_custom_function( $form_id, $contact ) {
     // Perform custom logic here.
 }
-add_action( 'mint_before_form_submit', 'my_custom_function', 10, 2 );
+add_action( 'mailmint_before_form_submit', 'my_custom_function', 10, 2 );
 ```
 
 In the example above, my_custom_function is a custom function that will be called when the mrm_before_form_submit hook is triggered. The function takes two parameters, $form_id and $contact, which are the same parameters passed to the hook when it is triggered.

@@ -1,8 +1,8 @@
-# MailMint plugin install
+# Plugin install
 
 <Badge type="tip" vertical="top" text="Mail Mint Core" /> <Badge type="warning" vertical="top" text="Basic" />
 
-```do_action('mint_post_install',10,1)```
+```do_action('mailmint_post_install',10,1)```
 
 Fires after the MailMint plugin is fully installed.
 
@@ -19,9 +19,7 @@ Fires after the MailMint plugin is fully installed.
 function my_custom_function( $new_version ) {
     // Perform custom logic here.
 }
-add_action( 'mint_post_install', 'my_custom_function', 10, 1 );
-
-
+add_action( 'mailmint_post_install', 'my_custom_function', 10, 1 );
 ```
 
 In the example above, my_custom_function is a custom function that will be called when the mrm_post_install hook is triggered. The function takes one parameter, $new_version, which is the same parameter passed to the hook when it is triggered.

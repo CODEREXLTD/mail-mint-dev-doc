@@ -2,7 +2,7 @@
 
 <Badge type="tip" vertical="top" text="Mail Mint Core" /> <Badge type="warning" vertical="top" text="Basic" />
 
-```do_action('mrm_after_form_submit',10,3)```
+```do_action('mailmint_after_form_submit',10,3)```
 
 Fires after a form is submitted in the Mail Mint.
 
@@ -22,7 +22,7 @@ Fires after a form is submitted in the Mail Mint.
 function my_custom_function( $form_id, $contact_id, $contact ) {
     // Perform custom logic here.
 }
-add_action( 'mrm_after_form_submit', 'my_custom_function', 10, 3 );
+add_action( 'mailmint_after_form_submit', 'my_custom_function', 10, 3 );
 ```
 
 In the example above, my_custom_function is a custom function that will be called when the mrm_after_form_submit hook is triggered. The function takes three parameters, $form_id, $contact_id, and $contact, which are the same parameters passed to the hook when it is triggered.

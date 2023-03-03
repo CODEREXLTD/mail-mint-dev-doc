@@ -1,4 +1,4 @@
-# Mail Mint batch email scheduling processed
+# Per batch email scheduling processed
 
 <Badge type="tip" vertical="top" text="Mail Mint Core" /> <Badge type="warning" vertical="top" text="Basic" />
 

@@ -38,7 +38,7 @@ module.exports = [
     sidebarDepth: -1,
     children: [
       'mint_add_form_builder_blocks_support',
-      'mint_form_template',
+      // 'mint_form_template',
     ]
   }
 ];

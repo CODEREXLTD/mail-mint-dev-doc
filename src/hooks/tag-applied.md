@@ -2,7 +2,7 @@
 
 <Badge type="tip" vertical="top" text="Mail Mint Core" /> <Badge type="warning" vertical="top" text="Basic" />
 
-```do_action('mint_tag_applied',10,2)```
+```do_action('mailmint_tag_applied',10,2)```
 
 Fires when a contact is added to a tag.
 
@@ -21,7 +21,7 @@ Fires when a contact is added to a tag.
 function my_custom_function( $tags, $contact_id ) {
     // Perform custom logic here.
 }
-add_action( 'mint_tag_applied', 'my_custom_function', 10, 2 );
+add_action( 'mailmint_tag_applied', 'my_custom_function', 10, 2 );
 ```
 
 In the example above, my_custom_function is a custom function that will be called when the mint_tag_applied hook is triggered. The function takes two parameters, $tags and $contact_id, which are the same parameters passed to the hook when it is triggered.

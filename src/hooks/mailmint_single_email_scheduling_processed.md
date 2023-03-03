@@ -1,4 +1,4 @@
-# Mail Mint single email scheduling processed
+# Single email scheduling processed
 
 <Badge type="tip" vertical="top" text="Mail Mint Core" /> <Badge type="warning" vertical="top" text="Basic" />
 
@@ -22,8 +22,6 @@ function my_custom_function( $campaign_id, $campaign_email_id ) {
     // Perform custom logic here.
 }
 add_action( 'mailmint_single_email_scheduling_processed', 'my_custom_function', 10, 2 );
-
-
 ```
 
 In the example above, my_custom_function is a custom function that will be called when the mailmint_single_email_scheduling_processed hook is triggered. The function takes two parameters, $campaign_id and $campaign_email_id, which are the same parameters passed to the hook when it is triggered.
