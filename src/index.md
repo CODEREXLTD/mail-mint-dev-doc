@@ -24,6 +24,10 @@ actionLink: /hooks/
   </div>
 </div>
 
-::: slot footer
+
+<center>
+
 Copyright © 2022-present [Mail Mint](https://getwpfunnels.com/docs/mail-mint/)
-:::
+
+</center>
+
