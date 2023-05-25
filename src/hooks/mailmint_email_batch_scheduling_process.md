@@ -1,10 +1,10 @@
-# Email batch scheduling process
+# Email batch Scheduling Processing
 
 <Badge type="tip" vertical="top" text="Mail Mint Core" /> <Badge type="warning" vertical="top" text="Basic" />
 
 ```do_action('mailmint_email_batch_scheduling_process',10,1)```
 
-Fires when the MailMint plugin is processing the email batch scheduling process.
+This action is triggered when a Mail Mint is processing an email batch for the scheduling process.
 
 
 ## Hook Arguments

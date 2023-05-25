@@ -1,10 +1,11 @@
-# Form builder blocks support
+# Form Builder
 
 <Badge type="tip" vertical="top" text="Mail Mint Core" /> <Badge type="warning" vertical="top" text="Basic" />
 
 ```apply_filters('mailmint_add_form_builder_blocks_support',10,1)```
 
-Filters the list of allowed blocks in the  Mail Mint form builder.
+This hook filters out the allowed blocks of Mail Mint Built-In Form Builder.
+
 
 
 ## Hook Arguments

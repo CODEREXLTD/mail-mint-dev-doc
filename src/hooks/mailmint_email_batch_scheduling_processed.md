@@ -4,8 +4,7 @@
 
 ```do_action('mailmint_email_batch_scheduling_processed',10,2)```
 
-Fires when the MailMint plugin has finished processing an email during the email batch scheduling process.
-
+This action is triggered when MailMint has finished processing an email batch as part of the email batch-scheduling process.
 
 ## Hook Arguments
 

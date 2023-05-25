@@ -1,14 +1,14 @@
 module.exports = [
   {
-    title: 'Mail Mint Hooks',
+    title: 'Getting Started',
     collapsable: false,
     sidebarDepth: -1,
     children: [
-      [ '', 'Introduction' ],
+      [ '', 'Mail Mint Introduction ' ],
     ]
   },
   {
-    title: 'Mint API',
+    title: 'Mail Mint API',
     collapsable: false,
     sidebarDepth: -1,
     children: [

@@ -1,10 +1,10 @@
-# After Form Submit
+# After Form Submission
 
 <Badge type="tip" vertical="top" text="Mail Mint Core" /> <Badge type="warning" vertical="top" text="Basic" />
 
 ```do_action('mailmint_after_form_submit',10,3)```
 
-Fires after a form is submitted in the Mail Mint.
+This action is triggered before a form is submitted to Mail Mint
 
 
 ## Hook Arguments

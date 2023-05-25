@@ -4,7 +4,7 @@
 
 ```do_action('mailmint_loaded')```
 
-Fires when the MailMint plugin is loaded.
+This action is triggered when the Mail Mint plugin is loaded.
 
 
 ## Usage

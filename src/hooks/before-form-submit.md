@@ -1,11 +1,10 @@
-# Before Form Submit
+# Before Form Submission
 
 <Badge type="tip" vertical="top" text="Mail Mint Core" /> <Badge type="warning" vertical="top" text="Basic" />
 
 ```do_action(''mailmint_before_form_submit'',10,2)```
 
-Fires before a form is submitted in the MailMint
-
+This action is triggered before a form is submitted to Mail Mint
 
 
 ## Hook Arguments

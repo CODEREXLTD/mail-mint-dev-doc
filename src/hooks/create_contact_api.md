@@ -1,12 +1,17 @@
-# CONTACT PHP API
+# Contact API In Mail Mint
 
 <Badge type="tip" vertical="top" text="Mail Mint Core" /> <Badge type="warning" vertical="top" text="Basic" />
 
 
-MailMint  has the following PHP api functions so you can easily add/modify contacts.
+In Mail Mint, it’s possible for you to add unlimited contacts. And also you can add them in different lists and tags. The following section contains a list of the topics currently covered by this documentation.
 
 
-## Create/Update Single Contact
+## Adding/Modifying Contacts
+
+MailMint has the following PHP API functions so you can easily add/modify contacts.
+
+### Create/Update Single Contact
+Following is the PHP API function for creating or updating a single contact
 
 ```
 $args = [
@@ -27,7 +32,8 @@ $contact_id = mailmint_create_single_contact( $args );
 ```
 
 
-## Create/Update Multiple Contacts
+### Create/Update Multiple Contacts
+Following is the PHP API function for creating or updating multiple contacts
 
 ```
 $args = [
@@ -61,7 +67,9 @@ $args = [
 mailmint_create_multiple_contacts( $args );
 ```
 
-## Create/Update Single Contact Group
+### Create/Update a single list/tag 
+Following is the PHP API function if you want to create or update a single list/tag 
+
 
 ```
 $type = 'lists'; // type can be lists or tags
@@ -75,8 +83,8 @@ $args = [
 $group_id = mailmint_create_single_contact_group( $type, $args );
 ```
 
-## Create/Update Multiple Contact Groups
-
+### Create/Update  multiple list/tag
+Following is the PHP API function if you want to create or update multiple lists/tags
 
 ```
 $type = 'tags'; // type can be lists or tags
@@ -99,9 +107,8 @@ mailmint_create_multiple_contact_groups( $type, $args );
 
 
 
-## Create/Update Multiple Contact Groups
-
-
+### Create/Update  multiple list/tag to a Specific Contact
+Following is the PHP API function if you want to create or update multiple lists/tags to a Specific Contact
 
 ```
 $type = 'lists';    // type can be lists or tags

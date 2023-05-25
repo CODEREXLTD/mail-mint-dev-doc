@@ -1,10 +1,10 @@
-# Plugin install
+# Plugin Installed
 
 <Badge type="tip" vertical="top" text="Mail Mint Core" /> <Badge type="warning" vertical="top" text="Basic" />
 
 ```do_action('mailmint_post_install',10,1)```
 
-Fires after the MailMint plugin is fully installed.
+This action is triggered when the Mail Mint plugin is installed
 
 ## Hook Arguments
 

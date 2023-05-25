@@ -1,11 +1,10 @@
-# Single email scheduling processed
+# Single Email scheduling Processed
 
 <Badge type="tip" vertical="top" text="Mail Mint Core" /> <Badge type="warning" vertical="top" text="Basic" />
 
 ```do_action('mailmint_single_email_scheduling_processed',10,2)```
 
-Fires when the MailMint plugin has finished processing a single email during the email batch scheduling process.
-
+This action is triggered when MailMint has finished processing a single email during the email batch-scheduling process.
 
 ## Hook Arguments
 

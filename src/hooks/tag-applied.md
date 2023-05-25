@@ -1,10 +1,10 @@
-# Tag applied in single contact
+# Tag applied in a single contact
 
 <Badge type="tip" vertical="top" text="Mail Mint Core" /> <Badge type="warning" vertical="top" text="Basic" />
 
 ```do_action('mailmint_tag_applied',10,2)```
 
-Fires when a contact is added to a tag.
+This action is triggered when a tag is applied to a single contact
 
 
 ## Hook Arguments

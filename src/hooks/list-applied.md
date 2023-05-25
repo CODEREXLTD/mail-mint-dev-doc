@@ -1,11 +1,10 @@
-# List applied in single contact
+# List applied in a single contact
 
 <Badge type="tip" vertical="top" text="Mail Mint Core" /> <Badge type="warning" vertical="top" text="Basic" />
 
 ```do_action('mailmint_list_applied',10,2)```
 
-Fires when a contact is added to a list.
-
+This action is triggered when a list is applied to a single contact
 
 ## Hook Arguments
 

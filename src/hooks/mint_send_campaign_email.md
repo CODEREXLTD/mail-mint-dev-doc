@@ -1,11 +1,10 @@
-# Send email campaign
+# Email Campaign
 
 <Badge type="tip" vertical="top" text="Mail Mint Core" /> <Badge type="warning" vertical="top" text="Basic" />
 
 ```do_action('mailmint_send_campaign_email',10,1)```
 
-Fires when the MailMint plugin is processing the email batch scheduling process.
-
+This action runs when an email campaign has been launched.
 
 ## Hook Arguments
 
