@@ -28,7 +28,7 @@ actionLink: /hooks/
 
 <center>
 
-Copyright © 2022-present [Mail Mint](https://getwpfunnels.com/docs/mail-mint/)
+Copyright © 2022-present [Mail Mint](https://getwpfunnels.com/email-marketing-automation-mail-mint/)
 
 </center>
 
