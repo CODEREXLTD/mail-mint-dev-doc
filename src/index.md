@@ -11,16 +11,16 @@ actionLink: /hooks/
 
 <div class="features">
   <div class="feature">
-    <h2>Architecture</h2>
-    <p>Learn about Mail Mint Data Structure, Framework Basics and how internal Components work together.</p>
+    <h2>Mail Mint API</h2>
+    <p>The API will help you to create a seamless integration of Mail Mint with external applications, allowing developers to leverage its powerful features. With comprehensive documentation, developers can quickly grasp the API's endpoints, request/response formats, authentication methods, and error handling. </p>
   </div>
   <div class="feature">
-    <h2>Developer Hooks / Functions</h2>
-    <p>Mail Mint offers numerous easy-to-use hooks, functions and PHP API to interact with it's data and underlying API. Learn more about them in the detailed sections</p>
+    <h2>Action Hooks For Developers</h2>
+    <p>Action hooks are like special spots in our software's code where developers can add their own custom code. These spots are already set up for developers to tap into and make changes. By doing this, developers can add new features or change how things work in our software. It's a way to make our software more flexible and adaptable to different needs.</p>
   </div>
   <div class="feature">
-    <h2>CRM Module</h2>
-    <p>Mail Mint modules are designed in a way that allows for easy extension, allowing you to build integrations in just a few hours(Not in days), and giving you full control of your data.</p>
+    <h2>Customizing Data in Simple Words</h2>
+    <p>Developers can use their own special functions at specific places called filter points to control how data behaves or what it shows as output. This feature lets you have precise control over how data moves, so you can adjust them perfectly with what you need.</p>
   </div>
 </div>
 
