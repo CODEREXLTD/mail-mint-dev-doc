@@ -2,7 +2,7 @@
 home: true
 heroText: Mail Mint Developer Docs
 heroImage: https://getwpfunnels.com/wp-content/uploads/2023/02/logo.svg
-tagline: Resources for Mail Mint Developers
+tagline: Check Mail Mint's detailed Developer Docs so that you can easily use them to create integrations and extend custom functionalities.
 actionText: Get started →
 actionLink: /hooks/
 
