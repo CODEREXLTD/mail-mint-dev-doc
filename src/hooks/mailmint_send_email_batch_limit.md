@@ -16,7 +16,7 @@ You can use this action hook to perform custom logic when MailMint finishes proc
 function my_custom_function( $per_batch ) {
        // Perform custom logic here.
    }
-add_action( 'mailmint_send_email_batch_limit', 'my_custom_function', 10, 1 );
+add_filter( 'mailmint_send_email_batch_limit', 'my_custom_function', 10, 1 );
 ```
 
 In the example above, the my_custom_function is a custom function that will be called when the mailmint_send_email_batch_limit hook is triggered. The function takes one parameter, $per_batch, which represents the number of emails sent in a single batch.
