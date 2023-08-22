@@ -30,6 +30,7 @@ module.exports = [
       'mailmint_email_batch_scheduling_processed',
       'mailmint_single_email_scheduling_processed',
       'mint_send_campaign_email',
+      'mailmint_send_email_batch_limit'
     ]
   },
   {
